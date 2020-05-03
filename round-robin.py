@@ -46,9 +46,6 @@ def findavgTime(processes, n, bt, quantum):
         total_tat=total_tat+tat[i]
         print( i+1, "\t\t" ,bt[i], "\t\t", wt[i], "\t\t", tat[i])
 
-    print("\nAverage waiting time=%.5f "%(total_wt /n))
-    print("Average turn around time=%.5f "%(total_tat /n))
-
 if __name__ =="__main__":
     processes=[1,2,3,4]
     n=4;
